@@ -9,7 +9,7 @@ The **final gold layer** is exposed for reporting and analytics (Power BI connec
 ---
 
 ## **Architecture**
-![Architecture Diagram](images/architecture.png)  
+![Architecture Diagram](Architecture Diagram.jpg)  
 
 ---
 
