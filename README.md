@@ -17,8 +17,7 @@ The **final gold layer** is exposed for reporting and analytics (Power BI connec
 - **Azure Data Factory (ADF)** – Orchestrating ELT pipelines  
 - **Azure Data Lake Storage (ADLS)** – Bronze & Silver storage layers  
 - **Azure Databricks (PySpark)** – Data transformations (raw → transformed)  
-- **Azure Synapse Analytics** – External tables, views for the Gold layer  
-- **Power BI** – Final visualization  
+- **Azure Synapse Analytics** – External tables, views for the Gold layer 
 - **GitHub** – Data source for ingestion and version control  
 
 ---
@@ -42,11 +41,6 @@ The **final gold layer** is exposed for reporting and analytics (Power BI connec
 ### **3. Data Serving (Gold Layer)**
 - Curated Silver datasets are loaded into **Synapse Analytics** as **external tables**.
 - Business-friendly views are created to serve analytics needs.
-
----
-
-### **4. Reporting  (Power BI Layer)**
-- Power BI connects to Synapse Gold layer to visualize KPIs and trends.
 
 ---
 
